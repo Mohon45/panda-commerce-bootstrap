@@ -32,13 +32,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribes</a>
+                            <a class="nav-link" href="#subscribes">Subscribes</a>
                         </li>
 
                     </ul>
@@ -58,7 +58,7 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner rounded-3">
                     <div class="carousel-item active">
                         <div class="row d-flex align-items-center p-5 bg-info rounded bg-gradient">
                             <div class="col-lg-7">
@@ -146,7 +146,7 @@
         <!-- Categories section ends -->
 
         <!-- shoes section start -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -198,7 +198,7 @@
         <!-- shoes section ends -->
 
         <!-- Backpack section start -->
-        <section class="container mt-5">
+        <section class="container my-5" id="backpack">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -248,10 +248,23 @@
             </div>
         </section>
         <!-- Backpack section ends -->
+
+        <!-- Subscribes section start -->
+        <section style="height: 300px;"
+            class="container bg-info d-flex justify-content-center align-items-center rounded-3" id="subscribes">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="email" placeholder="Enter Your email">
+                <br>
+                <button class="btn btn-danger">SUBMIT</button>
+            </div>
+        </section>
+        <!-- Subscribes section ends -->
     </main>
 
-    <footer>
-
+    <footer class="mt-5 text-center">
+        <p><small>&copy;2021. Panda Commerce. All rights reserved.Md.Mohon.</small></p>
     </footer>
 
     <!-- bundle cdn link -->
